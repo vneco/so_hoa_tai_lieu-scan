@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: paperless-ngx\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-19 18:51+0000\n"
-"PO-Revision-Date: 2025-06-19 18:52\n"
+"PO-Revision-Date: 2025-06-24 12:14\n"
 "Last-Translator: \n"
 "Language-Team: Luxembourgish\n"
 "Language: lb_LU\n"
@@ -63,7 +63,7 @@ msgstr "Besëtzer"
 
 #: documents/models.py:53 documents/models.py:924
 msgid "None"
-msgstr ""
+msgstr "Keng"
 
 #: documents/models.py:54 documents/models.py:925
 msgid "Any word"
@@ -196,11 +196,11 @@ msgstr "D'Préifzomm vum archivéierten Dokument."
 
 #: documents/models.py:205
 msgid "page count"
-msgstr ""
+msgstr "saiten unnzuel"
 
 #: documents/models.py:212
 msgid "The number of pages of the document."
-msgstr ""
+msgstr "Weivill Saiten d' Dokument huet."
 
 #: documents/models.py:217 documents/models.py:633 documents/models.py:671
 #: documents/models.py:742 documents/models.py:800

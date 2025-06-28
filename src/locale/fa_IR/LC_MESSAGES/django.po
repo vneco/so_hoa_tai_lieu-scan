@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: paperless-ngx\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-19 18:51+0000\n"
-"PO-Revision-Date: 2025-06-19 18:52\n"
+"PO-Revision-Date: 2025-06-26 00:36\n"
 "Last-Translator: \n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
@@ -108,11 +108,11 @@ msgstr "غیر حساس است"
 
 #: documents/models.py:95 documents/models.py:146
 msgid "correspondent"
-msgstr "مکاتب"
+msgstr "مکاتبه کننده"
 
 #: documents/models.py:96
 msgid "correspondents"
-msgstr "مکاتب ها"
+msgstr "مکاتبه کننده ها"
 
 #: documents/models.py:100
 msgid "color"
@@ -290,7 +290,7 @@ msgstr "برچسب ها"
 
 #: documents/models.py:391
 msgid "Correspondent"
-msgstr "خبرنگار"
+msgstr "مکاتبه کننده"
 
 #: documents/models.py:392
 msgid "Document Type"
@@ -370,7 +370,7 @@ msgstr "ASN است"
 
 #: documents/models.py:453
 msgid "correspondent is"
-msgstr "خبرنگار است"
+msgstr "مکاتبه کننده است"
 
 #: documents/models.py:454
 msgid "document type is"
@@ -462,7 +462,7 @@ msgstr "مسیر ذخیره ساز است"
 
 #: documents/models.py:476
 msgid "has correspondent in"
-msgstr "خبرنگار در"
+msgstr "مکاتبه کننده دارد در"
 
 #: documents/models.py:477
 msgid "does not have correspondent in"
@@ -1668,7 +1668,7 @@ msgstr "اسپانیایی"
 
 #: paperless/settings.py:767
 msgid "Persian"
-msgstr ""
+msgstr "فارسی"
 
 #: paperless/settings.py:768
 msgid "Finnish"

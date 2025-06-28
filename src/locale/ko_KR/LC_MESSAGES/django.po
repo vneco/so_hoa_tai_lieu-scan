@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: paperless-ngx\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-19 18:51+0000\n"
-"PO-Revision-Date: 2025-06-19 18:52\n"
+"PO-Revision-Date: 2025-06-22 12:12\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -1573,47 +1573,47 @@ msgstr "애플리케이션 로고"
 
 #: paperless/models.py:197
 msgid "Enables barcode scanning"
-msgstr ""
+msgstr "바코드 스캔 사용"
 
 #: paperless/models.py:203
 msgid "Enables barcode TIFF support"
-msgstr ""
+msgstr "바코드 TIFF 지원 활성화"
 
 #: paperless/models.py:209
 msgid "Sets the barcode string"
-msgstr ""
+msgstr "바코드 문자열을 설정합니다."
 
 #: paperless/models.py:217
 msgid "Retains split pages"
-msgstr ""
+msgstr "분할 페이지 유지"
 
 #: paperless/models.py:223
 msgid "Enables ASN barcode"
-msgstr ""
+msgstr "ASN 바코드 사용"
 
 #: paperless/models.py:229
 msgid "Sets the ASN barcode prefix"
-msgstr ""
+msgstr "ASN 바코드 접두사를 설정합니다."
 
 #: paperless/models.py:237
 msgid "Sets the barcode upscale factor"
-msgstr ""
+msgstr "바코드 업스케일 계수 설정"
 
 #: paperless/models.py:244
 msgid "Sets the barcode DPI"
-msgstr ""
+msgstr "바코드 DPI 설정"
 
 #: paperless/models.py:251
 msgid "Sets the maximum pages for barcode"
-msgstr ""
+msgstr "바코드 최대 페이지 설정"
 
 #: paperless/models.py:258
 msgid "Enables tag barcode"
-msgstr ""
+msgstr "태그 바코드 사용"
 
 #: paperless/models.py:264
 msgid "Sets the tag barcode mapping"
-msgstr ""
+msgstr "태그 바코드 매핑 설정"
 
 #: paperless/models.py:269
 msgid "paperless application settings"
@@ -1669,7 +1669,7 @@ msgstr "스페인어"
 
 #: paperless/settings.py:767
 msgid "Persian"
-msgstr ""
+msgstr "페르시아어"
 
 #: paperless/settings.py:768
 msgid "Finnish"

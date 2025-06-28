@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: paperless-ngx\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-19 18:51+0000\n"
-"PO-Revision-Date: 2025-06-19 18:52\n"
+"PO-Revision-Date: 2025-06-24 00:36\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1584,35 +1584,35 @@ msgstr ""
 
 #: paperless/models.py:217
 msgid "Retains split pages"
-msgstr ""
+msgstr "Conserve les pages divisées"
 
 #: paperless/models.py:223
 msgid "Enables ASN barcode"
-msgstr ""
+msgstr "Active le code-barres ASN"
 
 #: paperless/models.py:229
 msgid "Sets the ASN barcode prefix"
-msgstr ""
+msgstr "Définit le préfixe du code-barres ASN"
 
 #: paperless/models.py:237
 msgid "Sets the barcode upscale factor"
-msgstr ""
+msgstr "Définit le facteur de mise à l'échelle du code-barres"
 
 #: paperless/models.py:244
 msgid "Sets the barcode DPI"
-msgstr ""
+msgstr "Définit le DPI du code-barres"
 
 #: paperless/models.py:251
 msgid "Sets the maximum pages for barcode"
-msgstr ""
+msgstr "Définit le nombre maximum de pages pour le code-barres"
 
 #: paperless/models.py:258
 msgid "Enables tag barcode"
-msgstr ""
+msgstr "Activer les étiquettes pour le code-barres"
 
 #: paperless/models.py:264
 msgid "Sets the tag barcode mapping"
-msgstr ""
+msgstr "Définit la correspondance des étiquettes de code-barres"
 
 #: paperless/models.py:269
 msgid "paperless application settings"
@@ -1668,7 +1668,7 @@ msgstr "Espagnol"
 
 #: paperless/settings.py:767
 msgid "Persian"
-msgstr ""
+msgstr "Persan"
 
 #: paperless/settings.py:768
 msgid "Finnish"
