@@ -190,7 +190,7 @@
               </svg><span>&nbsp;<ng-container i18n>Documentation</ng-container></span>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" style="display:none;">
             <div class="d-flex w-100 flex-wrap">
               <a class="nav-link pe-2 pb-1" target="_blank" rel="noopener noreferrer" href="https://github.com/paperless-ngx/paperless-ngx" ngbPopover="GitHub" i18n-ngbPopover [disablePopover]="!slimSidebarEnabled" placement="end" container="body" triggers="mouseenter:mouseleave" popoverClass="popover-slim">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="sidebaricon" viewBox="0 0 16 16">
@@ -206,7 +206,7 @@
             </div>
           </li>
           <li class="nav-item mt-2" [class.visually-hidden]="slimSidebarEnabled">
-            <div class="px-3 py-2 text-muted small d-flex align-items-center flex-wrap">
+            <div class="px-3 py-2 text-muted small d-flex align-items-center flex-wrap" style="display:none;">
               <div class="me-3">{{ versionString }}</div>
               <div *ngIf="!settingsService.updateCheckingIsSet || appRemoteVersion" class="version-check">
                 <ng-template #updateAvailablePopContent>
