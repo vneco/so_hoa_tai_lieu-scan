@@ -1,0 +1,28 @@
+version: '3.7'
+
+services:
+  redis:
+    image: redis:7
+    restart: unless-stopped
+    volumes:
+      - ./redisdata:/data
+
+  paperless:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      - redis
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/usr/src/paperless/data
+      - ./media:/usr/src/paperless/media
+      - ./export:/usr/src/paperless/export
+      - ./consume:/usr/src/paperless/consume
+    environment:
+      PAPERLESS_REDIS: redis://redis:6379
+      PAPERLESS_ADMIN_USER: admin
+      PAPERLESS_ADMIN_PASSWORD: admin
+      PAPERLESS_SECRET_KEY: changemeinproduction
+      OCR_LANGUAGE: vie
+      PAPERLESS_TIME_ZONE: Asia/Ho_Chi_Minh
